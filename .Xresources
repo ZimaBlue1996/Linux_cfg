@@ -34,10 +34,10 @@ URxvt*color15: #FFFFFF
 !URxvt.boldFont: -*-rissole-*
 !URxvt.italicFont: -*-rissole-*
 !URxvt.boldItalicfont: -*-rissole-*
-URxvt.font: xft:Iosevka:style=Regular:size=18
-URxvt.boldFont: xft:Iosevka:style=Bold:size=18
-URxvt.italicFont: xft:Iosevka:style=Italic:size=18
-URxvt.boldItalicFont: xft:Iosevka:style=Bold Italic:size=18
+URxvt.font: xft:Iosevka:style=Regular:size=14
+URxvt.boldFont: xft:Iosevka:style=Bold:size=14
+URxvt.italicFont: xft:Iosevka:style=Italic:size=14
+URxvt.boldItalicFont: xft:Iosevka:style=Bold Italic:size=14
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -72,3 +72,14 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.urlLauncher: firefox
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
+
+
+
+!! Display set
+Xft.dpi: 180
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
